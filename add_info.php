@@ -13,7 +13,11 @@ Code: <input type="text" name="code"><br>
 Professor: <input type="text" name="professor"><br>
 Class: <input type="text" name="classes"><br>
 Filename: <input type="text" name="filename"><br>
-<input type="submit" value="add">
+<input type="submit" value="add" align="center">
+</form>
+
+<form method="POST" action="first_page.php">
+<input type="submit" value="return">
 </form>
 
 </body>

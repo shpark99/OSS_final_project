@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 
-<h3>Result</h3>
+<title>Result</title>
 <body>
 
 <?php
@@ -17,13 +17,12 @@ if(!$conn){
 
 $query="INSERT INTO ClassMaterial(semester, code, professor, class, filename) VALUES('$_POST[semester]','$_POST[code]','$_POST[professor]','$_POST[classes]','$_POST[filename]')";
 
-mysqli_query($conn,$query);
-
-#if(!mysqli_query($conn,$query)){
-#	die('Error: '.mysqli_error());
-#}
-
-echo "Successfully added!";
+if(empty($_POST['semester']) || empty($_POST['code']) || empty($_POST['professor']) || empty($_POST['classes']) || empty($_POST['filename'])){
+	echo('Error: fill all the blanks');
+}else{
+	mysqli_query($conn,$query);
+	echo "Successfully added!";
+}
 
 mysqli_close($conn);
 ?>

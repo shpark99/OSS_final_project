@@ -39,15 +39,15 @@ if($_POST['mode']=='Search'){
 	if($professor){
 		$search_char = $search_char." and professor like '%$professor%'";
 	} 
-	if($classes){
-		$search_char= $search_char." and class like '%$classes%'";   
+	if($class){
+		$search_char= $search_char." and class like '%$class%'";   
 	}
 	if($filename){
 		$search_char.=" and filename like '%$filename%'";
 	}
 }
 
-	$query="SELECT * FROM ClassMaterial where 1 $search_char";
+	$query="SELECT * FROM ClassMaterial WHERE 1 $search_char ORDER BY semester,filename";
 	$result=mysqli_query($conn,$query);
 	$total=mysqli_num_rows($result);
 ?>
@@ -62,6 +62,9 @@ Class: <input type="text" name="classes" value='<?=$class?>'><br>
 Filename: <input type="text" name="filename" value='<?=$filename?>'><br>
 <input type='hidden' name='mode' value='Search'>
 <input type="submit" value="search">
+</form>
+<form method="POST" action="first_page.php">
+<input type="submit" value="return">
 </form>
 <hr>
 
@@ -83,7 +86,7 @@ while($list=mysqli_fetch_array($result)){
 	<td><?=$list['code']?></td>
 	<td><?=$list['professor']?></td>
 	<td><?=$list['class']?></td>
-	<td><?=$list['filename']?></td>
+	<td><a href ="/OSS_final_project/pdf/web/viewer.html?file=../../Class/<?=$list['filename']?>"><?=$list['filename']?></a></td>
 </tr>
 <?php
 }

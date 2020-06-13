@@ -32,7 +32,7 @@ especially that are forms of pdf.
 * Easy to find and see the class materials.
 * If you use it with your second server, the sever can be used as the secondary storage for storing class materials.
 ## How do you get start?
-* First, you need to have a table with five columns named "semester", "code","professor", "class" and "filename".
+* First, you need to have a table with five columns named "semester", "code","professor", "class" and "filename" in database.
 * In the "Insert.php" and "db.php" file, you have to change informations related to database (id, password, db name) to your own informations of database.
 * You have to put pdf files in Class directory.
 * When you add information, file name must be same as the name you had saved in your server.
@@ -40,4 +40,4 @@ especially that are forms of pdf.
 * Send email to inventor. <21800284@handong.edu>
 * See the video
 > > It will give a insight of how it works.<br/>
-> > Video address: "https://youtu.be/jfMYbltvb3A"
+> > Video address: "https://youtu.be/rJbrrhP_VlY"

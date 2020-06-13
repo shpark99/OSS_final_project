@@ -40,4 +40,4 @@ especially that are forms of pdf.
 * Send email to inventor. <21800284@handong.edu>
 * See the video
 > > It will give a insight of how it works.<br/>
-> > Video address: "https://youtu.be/rJbrrhP_VlY"
+> > Video address: "https://youtu.be/0RdFXsCxoOg"

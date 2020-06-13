@@ -12,20 +12,20 @@ especially that are forms of pdf.
 > > > 1. Connection to add_info.php.
 > > > 2. Connection to db_php.
 * add_info.php
-> > This is a page for adding informations of class materials.
+> > This is a page for adding informations of class materials.<br/>
 > > It will be connected to the Insert.php to put information to the database.
 * Insert.php
-> > It will get data from add_info.php and store data to the database.
+> > It will get data from add_info.php and store data to the database.<br/>
 > > It will shows result of action.
 > > > 1. Success to store data
 > > > 2. Fail to store data
 * db.php
-> > It is page for searching list of files that you have on your server.
+> > It is page for searching list of files that you have on your server.<br/>
 > > It will make hyper link in file name to connect with viewer.html in pdf directory, so that contents of file can be shown in web page as pdf. 
 * Class
 > > This is directory to save class materials in it.
 * pdf
-> > This is the directory of pdf viewer.
+> > This is the directory of pdf viewer.<br/>
 > > This is "pdf.js" open source from "https://github.com/mozilla/pdf.js.git"
 ## Why is this project useful?
 * Efficient to manage all the class materials at once by using database.
@@ -38,5 +38,5 @@ especially that are forms of pdf.
 ## Where can you get more help?
 * Send email to inventor. <21800284@handong.edu>
 * See the video
-> > It will give a insight of how it works.
+> > It will give a insight of how it works.<br/>
 > > Video address: "https://youtu.be/jfMYbltvb3A"

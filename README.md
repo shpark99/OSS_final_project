@@ -10,7 +10,7 @@ especially that are forms of pdf.
 * first_page.php
 > > This is a first_page of web page. It will make 2 options.
 > > > 1. Connection to add_info.php.
-> > > 2. Connection to db_php.
+> > > 2. Connection to db.php.
 * add_info.php
 > > This is a page for adding informations of class materials.<br/>
 > > It will be connected to the Insert.php to put information to the database.

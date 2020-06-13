@@ -34,7 +34,8 @@ especially that are forms of pdf.
 ## How do you get start?
 * First, you need to have a table with five columns named "semester", "code","professor", "class" and "filename".
 * In the "Insert.php" and "db.php" file, you have to change informations related to database (id, password, db name) to your own informations of database.
-* In "db.php", you have to change file path to the path where you saved files.
+* You have to put pdf files in Class directory.
+* When you add information, file name must be same as the name you had saved in your server.
 ## Where can you get more help?
 * Send email to inventor. <21800284@handong.edu>
 * See the video

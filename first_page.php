@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Class Materials Management</title>
-<h2> "Class Materials Management"</h2>
+<title>Class Materials Manager</title>
+<h2> "Class Materials Manager"</h2>
 </head>
 <hr>
 
